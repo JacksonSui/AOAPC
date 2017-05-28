@@ -80,8 +80,3 @@ int main(int argc, char const *argv[])
 	printf("%d\n",period[n-1]);
 	return 0;
 }
-
-
-
-
-
