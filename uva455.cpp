@@ -77,6 +77,11 @@ int main(int argc, char const *argv[])
 	}
 	for (int i = 0; i<n-1; i++)
 		printf("%d\n\n", period[i]);
-	printf("%d\n",period[i]);
+	printf("%d\n",period[n-1]);
 	return 0;
 }
+
+
+
+
+
