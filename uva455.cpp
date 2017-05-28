@@ -30,6 +30,10 @@ int main(int argc, char const *argv[])
 		deln(str);
 		int re, min = 0;
 		int l = strlen(str);
+		if(l==1){
+		    period[i]=1;
+		    continue;
+		}
 		for (int t = 1; t<l; t++) {
 			if (str[t] == str[0]) {
 				if (!min) {
